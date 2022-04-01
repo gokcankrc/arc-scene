@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 297098016}
-  m_IndirectSpecularColor: {r: 0.470567, g: 0.35109702, b: 0.3286141, a: 1}
+  m_IndirectSpecularColor: {r: 0.47056758, g: 0.35109717, b: 0.32861367, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -202,7 +202,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 123561328}
   m_LocalRotation: {x: -0.038573015, y: 0.9231519, z: -0.0961869, w: -0.37020376}
-  m_LocalPosition: {x: 27.166101, y: 10.383375, z: 28.424036}
+  m_LocalPosition: {x: 27.166101, y: 14.563375, z: 28.424036}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2137635879}
@@ -419,13 +419,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 297098015}
-  m_LocalRotation: {x: 0.16828442, y: -0.37628144, z: 0.06970569, w: 0.90842384}
+  m_LocalRotation: {x: -0.13181761, y: -0.6785943, z: 0.12570885, w: -0.71156955}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 231589105}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 20.99, y: -45, z: 0}
+  m_LocalEulerAnglesHint: {x: 20.99, y: -272.71802, z: 0}
 --- !u!1 &339624731
 GameObject:
   m_ObjectHideFlags: 0
@@ -548,7 +548,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 715935496}
   m_LocalRotation: {x: 0.012408114, y: 0.90158206, z: -0.025916507, w: 0.43165278}
-  m_LocalPosition: {x: 27.166101, y: 10.383375, z: 28.424036}
+  m_LocalPosition: {x: 27.166101, y: 14.563375, z: 28.424036}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1000370757}
@@ -5566,7 +5566,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1639179533}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.1, z: 0}
+  m_LocalPosition: {x: 0, y: 6.28, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2137635879}
