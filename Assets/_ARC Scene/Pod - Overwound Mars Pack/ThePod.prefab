@@ -23,15 +23,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 604369313681452332}
-  m_LocalRotation: {x: -0, y: 0.9627636, z: -0, w: 0.27034473}
+  m_LocalRotation: {x: -0, y: -0.9627626, z: 0, w: -0.27034822}
   m_LocalPosition: {x: 25.823, y: 7.27, z: 15.856}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_Children:
   - {fileID: 8611873225570173641}
   - {fileID: 9178948633338925214}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: -116.922, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -211.37, z: 0}
 --- !u!1 &8616594950710483651
 GameObject:
   m_ObjectHideFlags: 0
@@ -43,6 +43,7 @@ GameObject:
   - component: {fileID: 8611873225570173641}
   - component: {fileID: 8640804765884352743}
   - component: {fileID: 8630774996200296235}
+  - component: {fileID: 2267978816902379989}
   m_Layer: 0
   m_Name: PodRamp (1)
   m_TagString: Untagged
@@ -113,6 +114,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &2267978816902379989
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8616594950710483651}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 71c3720f0c4dbbe49a954afe700a3193, type: 3}
 --- !u!1 &9180720553624997622
 GameObject:
   m_ObjectHideFlags: 0
@@ -124,6 +139,7 @@ GameObject:
   - component: {fileID: 9179416590186453834}
   - component: {fileID: 9158540840641560868}
   - component: {fileID: 9168846721889313380}
+  - component: {fileID: 1260836762313876390}
   m_Layer: 0
   m_Name: Pod
   m_TagString: Untagged
@@ -194,6 +210,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &1260836762313876390
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9180720553624997622}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 8865d0e964ac05142a03c9c7f84f265a, type: 3}
 --- !u!1 &9181333641732081870
 GameObject:
   m_ObjectHideFlags: 0
@@ -284,6 +314,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9178948633338925214}
+  - component: {fileID: 3226853034782838551}
   m_Layer: 0
   m_Name: PodOnLegs (1)
   m_TagString: Untagged
@@ -307,3 +338,17 @@ Transform:
   m_Father: {fileID: 3387521086670440229}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!64 &3226853034782838551
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9181379677955789220}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}

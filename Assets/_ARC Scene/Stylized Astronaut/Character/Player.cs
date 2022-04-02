@@ -17,7 +17,7 @@ public class Player : MonoBehaviour {
 		}
 
 		void Update (){
-			if (Input.GetKey ("w")) {
+			if (Input.GetAxis("Vertical") > 0) {
 				anim.SetInteger ("AnimationPar", 1);
 			}  else {
 				anim.SetInteger ("AnimationPar", 0);
