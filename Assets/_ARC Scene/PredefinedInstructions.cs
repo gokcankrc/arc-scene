@@ -18,7 +18,8 @@ public class PredefinedInstructions : MonoBehaviour
     
     
 
-    void Start () {
+    void Start ()
+    {
         controller = GetComponent<CharacterController>();
         anim = gameObject.GetComponentInChildren<Animator>();
 
