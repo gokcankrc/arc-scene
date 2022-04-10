@@ -32,19 +32,18 @@ public class AirlockAnimator : MonoBehaviour
 
         Vector3 scaleVector = airlock.localScale;
         float zScale = scaleVector.z;
-
+        
         switch (_currentSequence.Animation)
         {
             case Instructions.AirlockAnimation.Open:
-                zScale += OpenSpeed * Time.deltaTime;
+                zScale -= OpenSpeed * Time.deltaTime;
                 break;
             case Instructions.AirlockAnimation.Close:
-                zScale -= OpenSpeed * Time.deltaTime;
+                zScale += OpenSpeed * Time.deltaTime;
                 break;
         }
 
         scaleVector.z = Mathf.Clamp(zScale, 0, MagicScaleNumber);
-
         airlock.localScale = scaleVector;
     }
 }

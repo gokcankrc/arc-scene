@@ -5,8 +5,8 @@ public class PredefinedDrive : MonoBehaviour
 {
     
     [SerializeField] private BuggyControl buggyControl;
-    [SerializeField] private List<PredefinedInstruction> Sequence;
     [SerializeField] private bool UseKeyboardControls;
+    [SerializeField] private List<PredefinedInstruction> Sequence;
     
     private PredefinedInstruction CurrentSequence;
 
