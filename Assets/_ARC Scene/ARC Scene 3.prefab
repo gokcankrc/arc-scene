@@ -1160,6 +1160,18 @@ PrefabInstance:
       propertyPath: m_Convex
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3119791507375812021, guid: 5e6cbe9b3ebd91b44b90f8541804341c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3119791507375812021, guid: 5e6cbe9b3ebd91b44b90f8541804341c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3119791507375812021, guid: 5e6cbe9b3ebd91b44b90f8541804341c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3412693315402629953, guid: 5e6cbe9b3ebd91b44b90f8541804341c, type: 3}
       propertyPath: Sequence.Array.size
       value: 3
@@ -1262,15 +1274,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3796389367529803155, guid: 5e6cbe9b3ebd91b44b90f8541804341c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.443
+      value: -1.552
       objectReference: {fileID: 0}
     - target: {fileID: 3796389367529803155, guid: 5e6cbe9b3ebd91b44b90f8541804341c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 8.519
+      value: 8.617
       objectReference: {fileID: 0}
     - target: {fileID: 3796389367529803155, guid: 5e6cbe9b3ebd91b44b90f8541804341c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.878
+      value: 2.48
       objectReference: {fileID: 0}
     - target: {fileID: 3796389367529803155, guid: 5e6cbe9b3ebd91b44b90f8541804341c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1522,7 +1534,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6458768901457458293, guid: 5e6cbe9b3ebd91b44b90f8541804341c, type: 3}
       propertyPath: UseKeyboardControls
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6458768901457458293, guid: 5e6cbe9b3ebd91b44b90f8541804341c, type: 3}
       propertyPath: Sequence.Array.data[0].Duration
@@ -1530,7 +1542,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6458768901457458293, guid: 5e6cbe9b3ebd91b44b90f8541804341c, type: 3}
       propertyPath: Sequence.Array.data[1].Duration
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6458768901457458293, guid: 5e6cbe9b3ebd91b44b90f8541804341c, type: 3}
       propertyPath: Sequence.Array.data[2].Duration
@@ -1558,7 +1570,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6458768901457458293, guid: 5e6cbe9b3ebd91b44b90f8541804341c, type: 3}
       propertyPath: Sequence.Array.data[1].TurnSpeed
-      value: 1100
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6458768901457458293, guid: 5e6cbe9b3ebd91b44b90f8541804341c, type: 3}
       propertyPath: Sequence.Array.data[2].Behaviour
@@ -1578,7 +1590,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6458768901457458293, guid: 5e6cbe9b3ebd91b44b90f8541804341c, type: 3}
       propertyPath: Sequence.Array.data[1].ForwardSpeed
-      value: 2110
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6458768901457458293, guid: 5e6cbe9b3ebd91b44b90f8541804341c, type: 3}
       propertyPath: Sequence.Array.data[2].ForwardSpeed
@@ -1635,6 +1647,10 @@ PrefabInstance:
     - target: {fileID: 7021678921316375708, guid: 5e6cbe9b3ebd91b44b90f8541804341c, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7696703368832818681, guid: 5e6cbe9b3ebd91b44b90f8541804341c, type: 3}
+      propertyPath: m_RootOrder
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 7696703368832818681, guid: 5e6cbe9b3ebd91b44b90f8541804341c, type: 3}
       propertyPath: m_LocalPosition.x

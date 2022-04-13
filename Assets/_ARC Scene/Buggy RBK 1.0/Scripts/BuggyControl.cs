@@ -788,7 +788,8 @@ public class BuggyControl : MonoBehaviour
                     pc.enableEmission = false;
                 }
 
-                lp.y = w.startPos.y - carWheels.setting.Distance;
+                // lp.y = w.startPos.y - carWheels.setting.Distance;
+                lp.y = Mathf.Lerp(lp.y, w.startPos.y - carWheels.setting.Distance, 1f * Time.deltaTime);
 
                 myRigidbody.AddForce(Vector3.down * 5000);
             }
