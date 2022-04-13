@@ -589,22 +589,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4283817877670906476, guid: ec3578e5baf82da4dbdc8055eab82f78, type: 3}
-      propertyPath: UseKeyboardControls
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4283817877670906476, guid: ec3578e5baf82da4dbdc8055eab82f78, type: 3}
-      propertyPath: Sequence.Array.data[1].TurnSpeed
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4283817877670906476, guid: ec3578e5baf82da4dbdc8055eab82f78, type: 3}
-      propertyPath: Sequence.Array.data[1].ForwardSpeed
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8623336982792309688, guid: ec3578e5baf82da4dbdc8055eab82f78, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec3578e5baf82da4dbdc8055eab82f78, type: 3}
 --- !u!1 &869901439

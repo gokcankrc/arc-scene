@@ -1506,7 +1506,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6186112777853800822, guid: 5e6cbe9b3ebd91b44b90f8541804341c, type: 3}
       propertyPath: m_Name
-      value: ARC Scene 3
+      value: ARC Scene 7
       objectReference: {fileID: 0}
     - target: {fileID: 6186112777853800822, guid: 5e6cbe9b3ebd91b44b90f8541804341c, type: 3}
       propertyPath: m_IsActive
@@ -1637,6 +1637,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7696703368832818681, guid: 5e6cbe9b3ebd91b44b90f8541804341c, type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 7696703368832818681, guid: 5e6cbe9b3ebd91b44b90f8541804341c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.29
       objectReference: {fileID: 0}
@@ -1702,7 +1706,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8200055691319715767, guid: 5e6cbe9b3ebd91b44b90f8541804341c, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8200055691319715767, guid: 5e6cbe9b3ebd91b44b90f8541804341c, type: 3}
       propertyPath: Sequence.Array.size

@@ -404,8 +404,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8480990157082722533}
-  m_LocalRotation: {x: -0.038573015, y: 0.9231519, z: -0.0961869, w: -0.37020376}
-  m_LocalPosition: {x: 27.166101, y: 14.563375, z: 28.424036}
+  m_LocalRotation: {x: 0.08388117, y: -0.05573041, z: -0.010397006, w: 0.9948618}
+  m_LocalPosition: {x: 1.245815, y: 10.788264, z: 5.2373667}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2369035392318914993}
@@ -436,7 +436,7 @@ Camera:
     height: 1
   near clip plane: 0.1
   far clip plane: 5000
-  field of view: 70
+  field of view: 40
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -1323,6 +1323,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6982729112949889639}
     m_Modifications:
+    - target: {fileID: 3275491799357142941, guid: ff4fdb373b7fd9a458b8beecb85d0b37, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.00000030733636
+      objectReference: {fileID: 0}
+    - target: {fileID: 3275491799357142941, guid: ff4fdb373b7fd9a458b8beecb85d0b37, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.9099984
+      objectReference: {fileID: 0}
+    - target: {fileID: 3275491799357142941, guid: ff4fdb373b7fd9a458b8beecb85d0b37, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -7.2600007
+      objectReference: {fileID: 0}
     - target: {fileID: 3472746089183043274, guid: ff4fdb373b7fd9a458b8beecb85d0b37, type: 3}
       propertyPath: m_Name
       value: RoverMover
