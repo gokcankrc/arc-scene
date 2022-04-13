@@ -583,7 +583,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3965553038953279343, guid: ec3578e5baf82da4dbdc8055eab82f78, type: 3}
       propertyPath: m_Name
-      value: ARC Scene 3
+      value: ARC Scene 3 Rover Exiting Airlock
       objectReference: {fileID: 0}
     - target: {fileID: 3965553038953279343, guid: ec3578e5baf82da4dbdc8055eab82f78, type: 3}
       propertyPath: m_IsActive
@@ -5575,6 +5575,67 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &999167612
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 159497976850736254, guid: 717824f11a49eb74e81e9d36cb975209, type: 3}
+      propertyPath: m_RootOrder
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 159497976850736254, guid: 717824f11a49eb74e81e9d36cb975209, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 159497976850736254, guid: 717824f11a49eb74e81e9d36cb975209, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 159497976850736254, guid: 717824f11a49eb74e81e9d36cb975209, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 159497976850736254, guid: 717824f11a49eb74e81e9d36cb975209, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 159497976850736254, guid: 717824f11a49eb74e81e9d36cb975209, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 159497976850736254, guid: 717824f11a49eb74e81e9d36cb975209, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 159497976850736254, guid: 717824f11a49eb74e81e9d36cb975209, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 159497976850736254, guid: 717824f11a49eb74e81e9d36cb975209, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 159497976850736254, guid: 717824f11a49eb74e81e9d36cb975209, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 159497976850736254, guid: 717824f11a49eb74e81e9d36cb975209, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3965553038953279343, guid: 717824f11a49eb74e81e9d36cb975209, type: 3}
+      propertyPath: m_Name
+      value: ARC Scene 5 Astronauts Controlling Rover
+      objectReference: {fileID: 0}
+    - target: {fileID: 3965553038953279343, guid: 717824f11a49eb74e81e9d36cb975209, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 717824f11a49eb74e81e9d36cb975209, type: 3}
 --- !u!1 &1079061940
 GameObject:
   m_ObjectHideFlags: 0
@@ -5856,7 +5917,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3965553038953279343, guid: 04b04e955315d3c47a2101fa72a53d3c, type: 3}
       propertyPath: m_Name
-      value: ARC Scene 1
+      value: ARC Scene 1 Exiting Pod
       objectReference: {fileID: 0}
     - target: {fileID: 3965553038953279343, guid: 04b04e955315d3c47a2101fa72a53d3c, type: 3}
       propertyPath: m_IsActive
@@ -5980,6 +6041,67 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1563695132
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 159497976850736254, guid: def01426be9c07747800acfed3f93457, type: 3}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 159497976850736254, guid: def01426be9c07747800acfed3f93457, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 159497976850736254, guid: def01426be9c07747800acfed3f93457, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 159497976850736254, guid: def01426be9c07747800acfed3f93457, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 159497976850736254, guid: def01426be9c07747800acfed3f93457, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 159497976850736254, guid: def01426be9c07747800acfed3f93457, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 159497976850736254, guid: def01426be9c07747800acfed3f93457, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 159497976850736254, guid: def01426be9c07747800acfed3f93457, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 159497976850736254, guid: def01426be9c07747800acfed3f93457, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 159497976850736254, guid: def01426be9c07747800acfed3f93457, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 159497976850736254, guid: def01426be9c07747800acfed3f93457, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3965553038953279343, guid: def01426be9c07747800acfed3f93457, type: 3}
+      propertyPath: m_Name
+      value: ARC Scene 4 Rover Traversing Terrain
+      objectReference: {fileID: 0}
+    - target: {fileID: 3965553038953279343, guid: def01426be9c07747800acfed3f93457, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: def01426be9c07747800acfed3f93457, type: 3}
 --- !u!1 &1572166548
 GameObject:
   m_ObjectHideFlags: 0
@@ -6308,6 +6430,67 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &2010398013
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 159497976850736254, guid: 3ef0296d9065eaf4b8f7d169974a5907, type: 3}
+      propertyPath: m_RootOrder
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 159497976850736254, guid: 3ef0296d9065eaf4b8f7d169974a5907, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 159497976850736254, guid: 3ef0296d9065eaf4b8f7d169974a5907, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 159497976850736254, guid: 3ef0296d9065eaf4b8f7d169974a5907, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 159497976850736254, guid: 3ef0296d9065eaf4b8f7d169974a5907, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 159497976850736254, guid: 3ef0296d9065eaf4b8f7d169974a5907, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 159497976850736254, guid: 3ef0296d9065eaf4b8f7d169974a5907, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 159497976850736254, guid: 3ef0296d9065eaf4b8f7d169974a5907, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 159497976850736254, guid: 3ef0296d9065eaf4b8f7d169974a5907, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 159497976850736254, guid: 3ef0296d9065eaf4b8f7d169974a5907, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 159497976850736254, guid: 3ef0296d9065eaf4b8f7d169974a5907, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3965553038953279343, guid: 3ef0296d9065eaf4b8f7d169974a5907, type: 3}
+      propertyPath: m_Name
+      value: ARC Scene 6 Rover Interracting With Rocket Panel
+      objectReference: {fileID: 0}
+    - target: {fileID: 3965553038953279343, guid: 3ef0296d9065eaf4b8f7d169974a5907, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3ef0296d9065eaf4b8f7d169974a5907, type: 3}
 --- !u!1001 &2088108488
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6361,7 +6544,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3965553038953279343, guid: d005ea2f2ae760a4ba17b531eccb80df, type: 3}
       propertyPath: m_Name
-      value: ARC Scene 2
+      value: ARC Scene 2 Entering Through Airlock
       objectReference: {fileID: 0}
     - target: {fileID: 3965553038953279343, guid: d005ea2f2ae760a4ba17b531eccb80df, type: 3}
       propertyPath: m_IsActive
@@ -6369,6 +6552,67 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d005ea2f2ae760a4ba17b531eccb80df, type: 3}
+--- !u!1001 &2116148740
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 159497976850736254, guid: 7aaf2cf4430e6de449edbffb960af96e, type: 3}
+      propertyPath: m_RootOrder
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 159497976850736254, guid: 7aaf2cf4430e6de449edbffb960af96e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 159497976850736254, guid: 7aaf2cf4430e6de449edbffb960af96e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 159497976850736254, guid: 7aaf2cf4430e6de449edbffb960af96e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 159497976850736254, guid: 7aaf2cf4430e6de449edbffb960af96e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 159497976850736254, guid: 7aaf2cf4430e6de449edbffb960af96e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 159497976850736254, guid: 7aaf2cf4430e6de449edbffb960af96e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 159497976850736254, guid: 7aaf2cf4430e6de449edbffb960af96e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 159497976850736254, guid: 7aaf2cf4430e6de449edbffb960af96e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 159497976850736254, guid: 7aaf2cf4430e6de449edbffb960af96e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 159497976850736254, guid: 7aaf2cf4430e6de449edbffb960af96e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3965553038953279343, guid: 7aaf2cf4430e6de449edbffb960af96e, type: 3}
+      propertyPath: m_Name
+      value: ARC Scene 7 Rocket Launching
+      objectReference: {fileID: 0}
+    - target: {fileID: 3965553038953279343, guid: 7aaf2cf4430e6de449edbffb960af96e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7aaf2cf4430e6de449edbffb960af96e, type: 3}
 --- !u!1 &2138448320
 GameObject:
   m_ObjectHideFlags: 0
@@ -6426,7 +6670,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1560276096743303680, guid: 00827dbbc4b6d4e428a573daa785295c, type: 3}
       propertyPath: m_Name
-      value: ARC Scene 0
+      value: ARC Scene 0 Slow Pan
+      objectReference: {fileID: 0}
+    - target: {fileID: 1560276096743303680, guid: 00827dbbc4b6d4e428a573daa785295c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2349165133109518609, guid: 00827dbbc4b6d4e428a573daa785295c, type: 3}
       propertyPath: m_RootOrder
