@@ -6,10 +6,11 @@ public class AirlockAnimator : MonoBehaviour
 {
     [SerializeField] private Transform airlock;
     [SerializeField] private float OpenSpeed;
-    [SerializeField] private float MagicScaleNumber = 75f;
     [SerializeField] private List<Instructions> Sequence;
     
     private Instructions _currentSequence;
+    private float MinAngle = 0;
+    private float MaxAngle = 90;
 
 
     private void Start()
@@ -30,21 +31,21 @@ public class AirlockAnimator : MonoBehaviour
             Sequence.RemoveAt(0);
         }
 
-        Vector3 scaleVector = airlock.localScale;
-        float zScale = scaleVector.z;
+        Vector3 eulerAngles = airlock.localEulerAngles;
+        float xEuler = eulerAngles.x;
         
         switch (_currentSequence.Animation)
         {
             case Instructions.AirlockAnimation.Open:
-                zScale -= OpenSpeed * Time.deltaTime;
+                xEuler += OpenSpeed * Time.deltaTime;
                 break;
             case Instructions.AirlockAnimation.Close:
-                zScale += OpenSpeed * Time.deltaTime;
+                xEuler -= OpenSpeed * Time.deltaTime;
                 break;
         }
 
-        scaleVector.z = Mathf.Clamp(zScale, 0, MagicScaleNumber);
-        airlock.localScale = scaleVector;
+        eulerAngles.x = Mathf.Clamp(xEuler, MinAngle, MaxAngle);
+        airlock.localEulerAngles = eulerAngles;
     }
 }
     
