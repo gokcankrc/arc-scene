@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 297098016}
-  m_IndirectSpecularColor: {r: 0.45818633, g: 0.3445055, b: 0.32205266, a: 1}
+  m_IndirectSpecularColor: {r: 0.4581867, g: 0.34450552, b: 0.32205275, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -252,11 +252,39 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2490892408620320632, guid: b426ec89285df034287fb6dbc8d4ca7b, type: 3}
       propertyPath: m_Name
-      value: Lunar S2 Astronauts Need You
+      value: Lunar S2 Astronauts Need You (first responders)
       objectReference: {fileID: 0}
     - target: {fileID: 2490892408620320632, guid: b426ec89285df034287fb6dbc8d4ca7b, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6141056026301845920, guid: b426ec89285df034287fb6dbc8d4ca7b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 27.166101
+      objectReference: {fileID: 0}
+    - target: {fileID: 6141056026301845920, guid: b426ec89285df034287fb6dbc8d4ca7b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 14.563375
+      objectReference: {fileID: 0}
+    - target: {fileID: 6141056026301845920, guid: b426ec89285df034287fb6dbc8d4ca7b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 28.424036
+      objectReference: {fileID: 0}
+    - target: {fileID: 6141056026301845920, guid: b426ec89285df034287fb6dbc8d4ca7b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.37020376
+      objectReference: {fileID: 0}
+    - target: {fileID: 6141056026301845920, guid: b426ec89285df034287fb6dbc8d4ca7b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.038573015
+      objectReference: {fileID: 0}
+    - target: {fileID: 6141056026301845920, guid: b426ec89285df034287fb6dbc8d4ca7b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.9231519
+      objectReference: {fileID: 0}
+    - target: {fileID: 6141056026301845920, guid: b426ec89285df034287fb6dbc8d4ca7b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.0961869
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b426ec89285df034287fb6dbc8d4ca7b, type: 3}
@@ -6321,6 +6349,10 @@ PrefabInstance:
     - target: {fileID: 2490892408620320632, guid: d71308beb96ee3f4782520f58fbb0e44, type: 3}
       propertyPath: m_Name
       value: Lunar S1 Lunar Catastrophe
+      objectReference: {fileID: 0}
+    - target: {fileID: 2490892408620320632, guid: d71308beb96ee3f4782520f58fbb0e44, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d71308beb96ee3f4782520f58fbb0e44, type: 3}
