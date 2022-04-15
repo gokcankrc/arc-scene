@@ -9,39 +9,43 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2058481424499908012, guid: 12dbbac833ab1ef4f9b873364f645703, type: 3}
       propertyPath: field of view
-      value: 40
+      value: 70
       objectReference: {fileID: 0}
     - target: {fileID: 4381284797746438062, guid: 12dbbac833ab1ef4f9b873364f645703, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 18.903097
+      value: 27.166101
       objectReference: {fileID: 0}
     - target: {fileID: 4381284797746438062, guid: 12dbbac833ab1ef4f9b873364f645703, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 13.225636
+      value: 14.563375
       objectReference: {fileID: 0}
     - target: {fileID: 4381284797746438062, guid: 12dbbac833ab1ef4f9b873364f645703, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 15.157377
+      value: 28.424036
       objectReference: {fileID: 0}
     - target: {fileID: 4381284797746438062, guid: 12dbbac833ab1ef4f9b873364f645703, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.89098215
+      value: -0.37020376
       objectReference: {fileID: 0}
     - target: {fileID: 4381284797746438062, guid: 12dbbac833ab1ef4f9b873364f645703, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.27339035
+      value: -0.038573015
       objectReference: {fileID: 0}
     - target: {fileID: 4381284797746438062, guid: 12dbbac833ab1ef4f9b873364f645703, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.34655553
+      value: 0.9231519
       objectReference: {fileID: 0}
     - target: {fileID: 4381284797746438062, guid: 12dbbac833ab1ef4f9b873364f645703, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.10633765
+      value: -0.0961869
       objectReference: {fileID: 0}
     - target: {fileID: 6186112777853800822, guid: 12dbbac833ab1ef4f9b873364f645703, type: 3}
       propertyPath: m_Name
-      value: Lunar S1 Catastrophe
+      value: Lunar S1 Lunar Catastrophe
+      objectReference: {fileID: 0}
+    - target: {fileID: 6186112777853800822, guid: 12dbbac833ab1ef4f9b873364f645703, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6982729112949889639, guid: 12dbbac833ab1ef4f9b873364f645703, type: 3}
       propertyPath: m_RootOrder

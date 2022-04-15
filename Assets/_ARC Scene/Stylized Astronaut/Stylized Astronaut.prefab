@@ -225,7 +225,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2614a7a2709d64749b913a52de38865e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Sequence: []
+  Sequence:
+  - SequenceEffect: 0
+    Behaviour: 1
+    Duration: 1
+    ForwardSpeed: 0
+    TurnSpeed: 0
   Speed: 2
   TurnSpeed: 100
   Gravity: 5

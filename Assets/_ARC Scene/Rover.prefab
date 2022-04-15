@@ -13858,7 +13858,7 @@ MonoBehaviour:
       grounded: 1
       brakeSound: {fileID: 8300000, guid: bbd739e4fd623f44b93fbbc0576a9297, type: 3}
       groundSound: {fileID: 8300000, guid: e74738166dc243747b9979b0cd3b6875, type: 3}
-      brakeColor: {r: 0.78431374, g: 0.570593, b: 0.39607844, a: 0.78431374}
+      brakeColor: {r: 0.745283, g: 0.745283, b: 0.745283, a: 0.78431374}
     cameraSwitchView:
     - {fileID: 469562}
     - {fileID: 475292}
