@@ -3,7 +3,27 @@ guid: 7c3fdae781fb5f24ea3c89b278ea9fd4
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body
+    second: {fileID: 2100000, guid: 878c7c621d742e94ea61b67ce880186a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "boyas\u0131z"
+    second: {fileID: 2100000, guid: 76610d5eec318774bb5af07e8be27fde, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "boyas\u0131z.005"
+    second: {fileID: 2100000, guid: e3e64beed51af8848b2cd484f5def082, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u015Fasi"
+    second: {fileID: 2100000, guid: 1ea5d3fb1ae25c4419ace05ac9cef5c1, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
